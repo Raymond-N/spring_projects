@@ -1,0 +1,22 @@
+package com.codingdojo.projectmanager.models;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="projects")
+public class Project {
+	
+	@Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+	
+	@NotNull
+    @Size(min = 5, max = 200, message="Project title is required!")
+    private String title;
+	
+	@DateTimeFormat(pattern="MM-dd-yyyy")
+	@NotEmpty
+	private Date date;
+
+}

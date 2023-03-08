@@ -1,0 +1,10 @@
+package com.codingdojo.daikichiroutes.controllers;
+
+@RestController
+public class DaikichiController {
+	@RequestMapping("/daikichi")
+	public String welcome() {
+		return "Welcome!";
+	}
+
+}

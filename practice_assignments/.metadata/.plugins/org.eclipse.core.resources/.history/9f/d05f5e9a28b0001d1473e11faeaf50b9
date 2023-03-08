@@ -1,0 +1,41 @@
+package com.codingdojo.projectmanager.services;
+
+@Service
+public class Project {
+	
+	// adding the project repository as a dependency
+		@Autowired
+		private ProjectRepo projectRepo;
+	    
+	    public ProjectService(ProjectRepo projectRepo) {
+	        this.projectRepo = projectRepo;
+	    }
+	    // returns all the projects
+	    public List<Project> allProjects() {
+	        return projectRepo.findAll();
+	    }
+	    // creates a project
+	    public Project createProject(Project p) {
+	        return projectRepo.save(p);
+	    }
+	    // retrieves a project
+	    public Project findProject(Long id) {
+	        Optional<Project> optionalProject = projectRepo.findById(id);
+	        if(optionalProject.isPresent()) {
+	            return optionalProject.get();
+	        } else {
+	            return null;
+	        }
+	    }
+	    
+	    // updates a project
+	    public Project updateProject(Project p) {
+	    	return projectRepo.save(p);
+	    }
+	    
+	    // deletes a project
+	    public void deleteProject(Project p) {
+	    	projectRepo.delete(p);
+	    }
+
+}

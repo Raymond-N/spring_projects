@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+
+h1 {
+	color: 085394;
+}
+
+h3 {
+	color: 085394;
+}
+
+button {
+	background-color: 085394;
+	color: white;
+	box-shadow: black 2px 2px;
+}

@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+C:\Users\nativ\OneDrive\Desktop\Spring_Projects\readings\.metadata\.plugins\org.eclipse.jdt.core
+867237387.index
+3875501356.index
+277644319.index
+2345952025.index
+1865797976.index
+507097198.index
+290588689.index

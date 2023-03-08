@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+
+h1 {
+	color: EF8080;
+}
+
+.background {
+	color: EF8080;
+	margin: 5px;
+}
+
+.table {
+	border-color: EF8080;
+}

@@ -1,0 +1,9 @@
+package com.codingdojo.projectmanager.repositories;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface UserRepo extends CrudRepository<User, Long> {
+	
+	Optional<User> findByEmail(String email);
+
+}

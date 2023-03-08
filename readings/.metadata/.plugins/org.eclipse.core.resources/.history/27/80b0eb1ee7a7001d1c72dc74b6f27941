@@ -1,0 +1,5 @@
+package com.codingdojo.authentication.models;
+
+public class User {
+
+}

@@ -1,0 +1,17 @@
+INDEX VERSION 1.131
+C:\Users\nativ\OneDrive\Desktop\Spring_Projects\core_assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\285394041.index
+\savetravels\src\main\java
+C:\Users\nativ\OneDrive\Desktop\Spring_Projects\core_assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2736206003.index
+\fruityloops\src\main\java
+C:\Users\nativ\OneDrive\Desktop\Spring_Projects\core_assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3722684359.index
+\omikujiform\src\main\java
+C:\Users\nativ\OneDrive\Desktop\Spring_Projects\core_assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1049995911.index
+\bookclub\src\main\java
+C:\Users\nativ\OneDrive\Desktop\Spring_Projects\core_assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3794255615.index
+\bookclub\src\main\java
+C:\Users\nativ\OneDrive\Desktop\Spring_Projects\core_assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2507208911.index
+\dojosandninjas\src\main\java
+C:\Users\nativ\OneDrive\Desktop\Spring_Projects\core_assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3151493620.index
+\loginandregistration\src\main\java
+C:\Users\nativ\OneDrive\Desktop\Spring_Projects\core_assignments\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\573935526.index
+\omikujiform\src\main\java

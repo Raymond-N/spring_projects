@@ -1,0 +1,10 @@
+package com.codingdojo.projectmanager.repositories;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface ProjectRepo extends CrudRepository<Project, Long> {
+	
+	// this method retrieves all the projects from the database
+    List<Project> findAll();
+
+}

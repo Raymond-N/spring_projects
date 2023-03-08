@@ -1,0 +1,11 @@
+package com.codingdojo.firstproject;
+
+@RestController
+public class HomeController {
+	@RequestMapping("/") {
+		public String hello() {
+			return "Hello World!";
+		}
+	}
+
+}

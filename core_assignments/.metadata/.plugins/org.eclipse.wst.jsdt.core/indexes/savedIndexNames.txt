@@ -1,0 +1,12 @@
+INDEX VERSION 1.4+C:\Users\nativ\OneDrive\Desktop\Spring_Projects\core_assignments\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1184965321.index
+3554469235.index
+706635051.index
+2078976310.index
+3228899660.index
+4200622711.index
+333698903.index
+2212016869.index
+330637755.index
+671175441.index
+2531064329.index

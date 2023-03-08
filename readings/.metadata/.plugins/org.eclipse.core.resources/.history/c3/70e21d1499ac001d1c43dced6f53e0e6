@@ -1,0 +1,10 @@
+package com.example.authentication.productsjava.repositories;
+
+import org.springframework.data.repository.CrudRepository;
+
+@Repository
+public interface CategoryRepository extends CrudRepository<Category, Long> {
+	
+	List<Category> findAll();
+
+}

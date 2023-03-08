@@ -1,0 +1,5 @@
+package com.rnatividad.lecture.models;
+
+public class Creature {
+
+}

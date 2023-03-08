@@ -1,0 +1,6 @@
+package com.codingdojo.projectmanager.controllers;
+
+@Controller
+public class MainController {
+
+}

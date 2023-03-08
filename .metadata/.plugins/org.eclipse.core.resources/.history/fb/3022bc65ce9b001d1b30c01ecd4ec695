@@ -1,0 +1,6 @@
+package com.codingdojo.coreassignment;
+
+public class Mammal {
+	public int energyLevel = 100;
+
+}

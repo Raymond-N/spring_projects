@@ -1,0 +1,13 @@
+package com.codingdojo.firstproject;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RestController
+public class HomeController {
+	
+	@RequestMapping("/")
+	public String helloWorld() {
+		return "Hello World!";
+	}
+
+}

@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\nativ\OneDrive\Desktop\Spring_Projects\practice_assignments\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+816926884.index
+3512669892.index
+3651513475.index
+1598498626.index
+3083022939.index
+978109453.index
+3652656774.index

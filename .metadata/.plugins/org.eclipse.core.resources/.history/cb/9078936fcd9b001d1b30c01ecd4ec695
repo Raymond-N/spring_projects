@@ -1,0 +1,7 @@
+package com.codingdojo.coreassignment;
+
+public class GorillaTest {
+	
+	Gorilla gorilla1 = new Gorilla();
+
+}

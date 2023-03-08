@@ -1,0 +1,5 @@
+package com.codingdojo.authentication.services;
+
+public class UserService {
+
+}

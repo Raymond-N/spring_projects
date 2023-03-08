@@ -1,0 +1,13 @@
+package com.codingdojo.projectmanager.models;
+
+public class LoginUser {
+	
+	@NotEmpty(message="Email is required!")
+    @Email(message="Please enter a valid email!")
+    private String email;
+    
+    @NotEmpty(message="Password is required!")
+    @Size(min=8, max=128, message="Invalid Password!")
+    private String password;
+
+}

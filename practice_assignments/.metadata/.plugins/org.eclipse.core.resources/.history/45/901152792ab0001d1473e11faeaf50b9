@@ -1,0 +1,49 @@
+package com.codingdojo.projectmanager.services;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.codingdojo.projectmanager.repositories.ProjectRepo;
+
+@Service
+public class ProjectService {
+	
+	// adding the project repository as a dependency
+		@Autowired
+		private ProjectRepo projectRepo;
+	    
+	    public ProjectService(ProjectRepo projectRepo) {
+		this.projectRepo = projectRepo;
+	}
+		// returns all the projects
+	    public List<ProjectService> allProjects() {
+	        return projectRepo.findAll();
+	    }
+	    // creates a project
+	    public ProjectService createProject(ProjectService p) {
+	        return projectRepo.save(p);
+	    }
+	    // retrieves a project
+	    public ProjectService findProject(Long id) {
+	        Optional<ProjectService> optionalProject = projectRepo.findById(id);
+	        if(optionalProject.isPresent()) {
+	            return optionalProject.get();
+	        } else {
+	            return null;
+	        }
+	    }
+	    
+	    // updates a project
+	    public ProjectService updateProject(ProjectService p) {
+	    	return projectRepo.save(p);
+	    }
+	    
+	    // deletes a project
+	    public void deleteProject(ProjectService p) {
+	    	projectRepo.delete(p);
+	    }
+
+}
